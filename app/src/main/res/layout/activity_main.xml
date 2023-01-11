@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/body_container"
+    android:background="@color/teal_700"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:elevation="2dp"
+        app:menu="@menu/bottom_menu"
+        android:background="@drawable/round_corner"
+        app:itemRippleColor="@android:color/transparent"
+        app:itemIconSize="35dp"
+        app:labelVisibilityMode="unlabeled"
+        app:itemIconTint="@drawable/item_selector"
+        android:id="@+id/bottom_navigation"
+        >
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <!--<-androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/my_nav" />-->
+
+
+
+    <FrameLayout
+        android:id="@+id/layout_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/dialog_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <ImageView
+            android:id="@+id/score_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </FrameLayout>
+
+</RelativeLayout>

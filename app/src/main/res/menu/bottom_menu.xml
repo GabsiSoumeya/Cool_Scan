@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/firstFragment"
+        android:title="Accueil"
+        android:icon="@drawable/ic_accueil"
+        />
+
+    <item
+        android:id="@+id/secondFragment"
+        android:title="Scan"
+        android:icon="@drawable/ic_btnscan"
+        />
+
+    <item
+        android:id="@+id/thirdFragment"
+        android:title="Paramètres"
+        android:icon="@drawable/ic_parametres"
+        />
+
+</menu>

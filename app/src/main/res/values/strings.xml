@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My PFA Project</string>
+
+    <!--Home page:Main-->
+    <string name="accueil_text">Accueil</string>
+    <string name="scan_text">Scan</string>
+    <string name="parametres_text">Paramètres</string>
+
+    <string name="OFFlogo">Open Beauty Facts logo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

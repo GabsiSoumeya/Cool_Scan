@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "275251108072",
+    "project_id": "cool-scan",
+    "storage_bucket": "cool-scan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275251108072:android:a723773c84f883b85cd15d",
+        "android_client_info": {
+          "package_name": "com.example.mypfaproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275251108072-ak7e7aul5gnkodfj4v8lmb6t2n9ge4tb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIBv1S9lhW2yUjn8o84NSlGV2pYq2YtNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275251108072-ak7e7aul5gnkodfj4v8lmb6t2n9ge4tb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
